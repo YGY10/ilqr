@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ilqr.dir/main.cc.o CMakeFiles/ilqr.dir/models/point_mass_model.cc.o -o ilqr 
