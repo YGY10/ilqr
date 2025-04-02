@@ -1,3 +1,0 @@
-/root/iLQR/build/CMakeFiles/ilqr.dir
-/root/iLQR/build/CMakeFiles/edit_cache.dir
-/root/iLQR/build/CMakeFiles/rebuild_cache.dir
