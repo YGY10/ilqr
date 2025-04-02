@@ -1,5 +1,5 @@
 #pragma once
-#include "models/point_mass_model.hpp"
+#include "point_mass_model.hpp"
 #include <Eigen/Dense>
 #include <vector>
 
@@ -15,6 +15,11 @@ public:
        double dt);
 
   // 前向传播函数
+  void backwardPass(std::vector<Eigen::MatrixXd> &K,
+                    std::vector<Eigen::VectorXd> &k);
+
+  void forwardPass(const std::vector<Eigen::MatrixXd> &K,
+                   const std::vector<Eigen::VectorXd> &k, double alpha = 1.0);
 
   // 求解函数
   void solve(int max_iterations = 100);
